@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on IO:E::</title>
-    <link>127.0.0.1/categories/</link>
+    <link>https://ioerr.dev/categories/</link>
     <description>Recent content in Categories on IO:E::</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>[MixedRGB](https://github.com/mixedrgb) - [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Sun, 29 Jan 2023 17:02:51 -0600</lastBuildDate><atom:link href="127.0.0.1/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Jan 2023 17:02:51 -0600</lastBuildDate><atom:link href="https://ioerr.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>all the things</title>
-      <link>127.0.0.1/categories/all-the-things/</link>
+      <link>https://ioerr.dev/categories/all-the-things/</link>
       <pubDate>Sun, 29 Jan 2023 17:02:51 -0600</pubDate>
       
-      <guid>127.0.0.1/categories/all-the-things/</guid>
+      <guid>https://ioerr.dev/categories/all-the-things/</guid>
       <description></description>
     </item>
     

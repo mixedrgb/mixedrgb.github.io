@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>software on IO:E::</title>
-    <link>127.0.0.1/tags/software/</link>
+    <link>https://ioerr.dev/tags/software/</link>
     <description>Recent content in software on IO:E::</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>[MixedRGB](https://github.com/mixedrgb) - [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Sun, 29 Jan 2023 17:02:51 -0600</lastBuildDate><atom:link href="127.0.0.1/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Jan 2023 17:02:51 -0600</lastBuildDate><atom:link href="https://ioerr.dev/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New year, new website</title>
-      <link>127.0.0.1/posts/first-2023/</link>
+      <link>https://ioerr.dev/posts/first-2023/</link>
       <pubDate>Sun, 29 Jan 2023 17:02:51 -0600</pubDate>
       
-      <guid>127.0.0.1/posts/first-2023/</guid>
+      <guid>https://ioerr.dev/posts/first-2023/</guid>
       <description>Here I am in 2023, about to start anew with fast-paced developement course! I&amp;rsquo;m pretty excited about it. Pretty amped. Heckin&amp;rsquo; amped! Here we go!</description>
     </item>
     

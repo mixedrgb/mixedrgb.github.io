@@ -2,35 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>127.0.0.1/categories/all-the-things/</loc>
+    <loc>https://ioerr.dev/categories/all-the-things/</loc>
     <lastmod>2023-01-29T17:02:51-06:00</lastmod>
   </url><url>
-    <loc>127.0.0.1/categories/</loc>
+    <loc>https://ioerr.dev/categories/</loc>
     <lastmod>2023-01-29T17:02:51-06:00</lastmod>
   </url><url>
-    <loc>127.0.0.1/tags/dev/</loc>
+    <loc>https://ioerr.dev/tags/dev/</loc>
     <lastmod>2023-01-29T17:02:51-06:00</lastmod>
   </url><url>
-    <loc>127.0.0.1/</loc>
+    <loc>https://ioerr.dev/</loc>
     <lastmod>2023-01-29T17:02:51-06:00</lastmod>
   </url><url>
-    <loc>127.0.0.1/posts/first-2023/</loc>
+    <loc>https://ioerr.dev/posts/first-2023/</loc>
     <lastmod>2023-01-29T17:02:51-06:00</lastmod>
   </url><url>
-    <loc>127.0.0.1/posts/</loc>
+    <loc>https://ioerr.dev/posts/</loc>
     <lastmod>2023-01-29T17:02:51-06:00</lastmod>
   </url><url>
-    <loc>127.0.0.1/tags/software/</loc>
+    <loc>https://ioerr.dev/tags/software/</loc>
     <lastmod>2023-01-29T17:02:51-06:00</lastmod>
   </url><url>
-    <loc>127.0.0.1/tags/</loc>
+    <loc>https://ioerr.dev/tags/</loc>
     <lastmod>2023-01-29T17:02:51-06:00</lastmod>
   </url><url>
-    <loc>127.0.0.1/tags/web/</loc>
+    <loc>https://ioerr.dev/tags/web/</loc>
     <lastmod>2023-01-29T17:02:51-06:00</lastmod>
   </url><url>
-    <loc>127.0.0.1/manifest/index.json</loc>
+    <loc>https://ioerr.dev/manifest/index.json</loc>
   </url><url>
-    <loc>127.0.0.1/search/</loc>
+    <loc>https://ioerr.dev/search/</loc>
   </url>
 </urlset>
