@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>127.0.0.1/categories/all-the-things/</loc>
+    <lastmod>2023-01-29T17:02:51-06:00</lastmod>
+  </url><url>
+    <loc>127.0.0.1/categories/</loc>
+    <lastmod>2023-01-29T17:02:51-06:00</lastmod>
+  </url><url>
+    <loc>127.0.0.1/tags/dev/</loc>
+    <lastmod>2023-01-29T17:02:51-06:00</lastmod>
+  </url><url>
+    <loc>127.0.0.1/</loc>
+    <lastmod>2023-01-29T17:02:51-06:00</lastmod>
+  </url><url>
+    <loc>127.0.0.1/posts/first-2023/</loc>
+    <lastmod>2023-01-29T17:02:51-06:00</lastmod>
+  </url><url>
+    <loc>127.0.0.1/posts/</loc>
+    <lastmod>2023-01-29T17:02:51-06:00</lastmod>
+  </url><url>
+    <loc>127.0.0.1/tags/software/</loc>
+    <lastmod>2023-01-29T17:02:51-06:00</lastmod>
+  </url><url>
+    <loc>127.0.0.1/tags/</loc>
+    <lastmod>2023-01-29T17:02:51-06:00</lastmod>
+  </url><url>
+    <loc>127.0.0.1/tags/web/</loc>
+    <lastmod>2023-01-29T17:02:51-06:00</lastmod>
+  </url><url>
+    <loc>127.0.0.1/manifest/index.json</loc>
+  </url><url>
+    <loc>127.0.0.1/search/</loc>
+  </url>
+</urlset>
