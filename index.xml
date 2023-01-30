@@ -6,7 +6,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>[MixedRGB](https://github.com/mixedrgb) - [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Sun, 29 Jan 2023 17:02:51 -0600</lastBuildDate><atom:link href="https://ioerr.dev/index.xml" rel="self" type="application/rss+xml" /><icon>https://ioerr.dev/img/icon.svg</icon>
+    <lastBuildDate>Sun, 29 Jan 2023 18:19:59 -0600</lastBuildDate><atom:link href="https://ioerr.dev/index.xml" rel="self" type="application/rss+xml" /><icon>https://ioerr.dev/img/icon.svg</icon>
+    
+    
+    <item>
+      <title>Intermission</title>
+      <link>https://ioerr.dev/posts/intermission/</link>
+      <pubDate>Sun, 29 Jan 2023 18:19:59 -0600</pubDate>
+      
+      <guid>https://ioerr.dev/posts/intermission/</guid>
+      <description><![CDATA[<p>Basically this takes <em><strong>VERY</strong></em> heavy inspiration from <a href="https://gitlab.com/gabmus/gabmus.gitlab.io/-/blob/master/config.toml">Gabmus&rsquo; config</a> file for this Hugo theme.</p>
+<p>Alright, that&rsquo;s enough poking around.</p>
+]]></description>
+      
+    </item>
+    
     
     
     <item>
@@ -15,8 +29,9 @@
       <pubDate>Sun, 29 Jan 2023 17:02:51 -0600</pubDate>
       
       <guid>https://ioerr.dev/posts/first-2023/</guid>
-      <description><![CDATA[<p>Here I am in 2023, about to start anew with fast-paced developement course!
-I&rsquo;m pretty excited about it. Pretty amped. Heckin&rsquo; amped! Here we go!</p>
+      <description><![CDATA[<p>Here I am in 2023, about to start anew with a fast-paced developement course!</p>
+<p>I&rsquo;m pretty excited about it. Might have more to say later, maybe not. Pretty amped either way.</p>
+<p>Heckin&rsquo; amped! Here we go!</p>
 ]]></description>
       
     </item>

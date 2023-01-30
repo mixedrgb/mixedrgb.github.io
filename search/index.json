@@ -8,6 +8,10 @@
         
         
     
-    "pages": [{"date":"2023-01-29","image":"","imageAlt":"","link":"https://ioerr.dev/posts/first-2023/","summary":"Here I am in 2023, about to start anew with fast-paced developement course! I\u0026rsquo;m pretty excited about it. Pretty amped. Heckin\u0026rsquo; amped! Here we go!","tags":["dev","software","web"],"text":"here i am in 2023, about to start anew with fast-paced developement course! i\u0026rsquo;m pretty excited about it. pretty amped. heckin\u0026rsquo; amped! here we go!\n","title":"New year, new website"}]
+        
+        
+        
+    
+    "pages": [{"date":"2023-01-29","image":"","imageAlt":"","link":"https://ioerr.dev/posts/intermission/","summary":"Basically this takes VERY heavy inspiration from Gabmus\u0026rsquo; config file for this Hugo theme.","tags":["misc"],"text":"basically this takes very heavy inspiration from gabmus\u0026rsquo; config file for this hugo theme.\nalright, that\u0026rsquo;s enough poking around.\n","title":"Intermission"},{"date":"2023-01-29","image":"","imageAlt":"","link":"https://ioerr.dev/posts/first-2023/","summary":"Here I am in 2023, about to start anew with a fast-paced developement course!","tags":["dev","software","web"],"text":"here i am in 2023, about to start anew with a fast-paced developement course!\ni\u0026rsquo;m pretty excited about it. might have more to say later, maybe not. pretty amped either way.\nheckin\u0026rsquo; amped! here we go!\n","title":"New year, new website"}]
 }
 

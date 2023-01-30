@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>[MixedRGB](https://github.com/mixedrgb) - [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Sun, 29 Jan 2023 17:02:51 -0600</lastBuildDate><atom:link href="https://ioerr.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Jan 2023 18:19:59 -0600</lastBuildDate><atom:link href="https://ioerr.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>everything</title>
+      <link>https://ioerr.dev/categories/everything/</link>
+      <pubDate>Sun, 29 Jan 2023 18:19:59 -0600</pubDate>
+      
+      <guid>https://ioerr.dev/categories/everything/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>all the things</title>
       <link>https://ioerr.dev/categories/all-the-things/</link>

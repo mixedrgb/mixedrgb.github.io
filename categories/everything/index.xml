@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on IO:E::</title>
-    <link>https://ioerr.dev/posts/</link>
-    <description>Recent content in Posts on IO:E::</description>
+    <title>everything on IO:E::</title>
+    <link>https://ioerr.dev/categories/everything/</link>
+    <description>Recent content in everything on IO:E::</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>[MixedRGB](https://github.com/mixedrgb) - [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Sun, 29 Jan 2023 18:19:59 -0600</lastBuildDate><atom:link href="https://ioerr.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Jan 2023 18:19:59 -0600</lastBuildDate><atom:link href="https://ioerr.dev/categories/everything/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intermission</title>
       <link>https://ioerr.dev/posts/intermission/</link>
@@ -15,15 +15,6 @@
       
       <guid>https://ioerr.dev/posts/intermission/</guid>
       <description>Basically this takes VERY heavy inspiration from Gabmus&amp;rsquo; config file for this Hugo theme.</description>
-    </item>
-    
-    <item>
-      <title>New year, new website</title>
-      <link>https://ioerr.dev/posts/first-2023/</link>
-      <pubDate>Sun, 29 Jan 2023 17:02:51 -0600</pubDate>
-      
-      <guid>https://ioerr.dev/posts/first-2023/</guid>
-      <description>Here I am in 2023, about to start anew with a fast-paced developement course!</description>
     </item>
     
   </channel>
