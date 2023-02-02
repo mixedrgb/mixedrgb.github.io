@@ -7,23 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>[MixedRGB](https://github.com/mixedrgb) - [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Tue, 31 Jan 2023 22:15:32 -0600</lastBuildDate><atom:link href="https://ioerr.dev/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Feb 2023 13:34:35 -0600</lastBuildDate><atom:link href="https://ioerr.dev/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Day of Class</title>
-      <link>https://ioerr.dev/posts/first-day-class/</link>
-      <pubDate>Tue, 31 Jan 2023 22:15:32 -0600</pubDate>
+      <title>Microsoft SQL Server Installation, or: Don&#39;t Install New Versions of Anything</title>
+      <link>https://ioerr.dev/posts/sql-server-problem/</link>
+      <pubDate>Thu, 02 Feb 2023 13:34:35 -0600</pubDate>
       
-      <guid>https://ioerr.dev/posts/first-day-class/</guid>
-      <description>First day was today. Instructor was fantastic, though I feel bad because I didn&amp;rsquo;t really have any questions to ask.</description>
-    </item>
-    
-    <item>
-      <title>New year, new website</title>
-      <link>https://ioerr.dev/posts/first-2023/</link>
-      <pubDate>Sun, 29 Jan 2023 17:02:51 -0600</pubDate>
-      
-      <guid>https://ioerr.dev/posts/first-2023/</guid>
-      <description>Here I am in 2023, about to start anew with a fast-paced developement course!</description>
+      <guid>https://ioerr.dev/posts/sql-server-problem/</guid>
+      <description>In this episode of &amp;ldquo;Whose Hack Is It Anyway?&amp;rdquo; we discover the problem of trying to install Microsoft SQL Server, version of the Year of Our Lord 2022, on Windows 11.</description>
     </item>
     
   </channel>

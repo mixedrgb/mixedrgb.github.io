@@ -6,7 +6,45 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>[MixedRGB](https://github.com/mixedrgb) - [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Tue, 31 Jan 2023 22:15:32 -0600</lastBuildDate><atom:link href="https://ioerr.dev/index.xml" rel="self" type="application/rss+xml" /><icon>https://ioerr.dev/img/icon.svg</icon>
+    <lastBuildDate>Thu, 02 Feb 2023 13:34:35 -0600</lastBuildDate><atom:link href="https://ioerr.dev/index.xml" rel="self" type="application/rss+xml" /><icon>https://ioerr.dev/img/icon.svg</icon>
+    
+    
+    <item>
+      <title>Microsoft SQL Server Installation, or: Don&#39;t Install New Versions of Anything</title>
+      <link>https://ioerr.dev/posts/sql-server-problem/</link>
+      <pubDate>Thu, 02 Feb 2023 13:34:35 -0600</pubDate>
+      
+      <guid>https://ioerr.dev/posts/sql-server-problem/</guid>
+      <description><![CDATA[<p>In this episode of &ldquo;Whose Hack Is It Anyway?&rdquo; we discover the problem of
+trying to install Microsoft SQL Server, version of the Year of Our Lord 2022,
+on Windows 11.</p>
+<h3 id="it-all-started-on-a-faded-blue-and-purple-sunny-afternoon-except-it-wasnt">It all started on a faded blue and purple sunny afternoon, except it wasn&rsquo;t</h3>
+<h3 id="sunny-and-i-dont-know-why-its-purple">sunny, and I don&rsquo;t know why it&rsquo;s purple.</h3>
+<p>Essentially I ran across the error code <code>-2061893606</code>, which has something to
+do with the disk sector size being different in Windows 11 (apparently this
+has to do with NVMe storage? I don&rsquo;t know) and SQL Server Express not
+recognizing it. So I cleaned it up, deleted the cached files because I
+figured there was a error with one of the cab files or something, then tried
+reinstalling. This time, I got error code <code>2068119551</code>, stating <code>attempted to perform an unauthorized operation</code>.</p>
+<h3 id="fantastic-i-dont-know-what-that-means-3">Fantastic. I don&rsquo;t know what that means &lt;3</h3>
+<p>At this point, I&rsquo;m sweating whole cars out of my neck. I need this installed,
+and it&rsquo;s hard to get ~250MiB installed when you can only go at a max rate of
+~1MB/s, fluctuating between that and less than 200KiB/s. It&rsquo;s after 11pm, I
+have to get up at 5am for work, and I have the following class day where,
+ideally, I should have this installed!!! I don&rsquo;t know what I&rsquo;m going to do.</p>
+<h3 id="but-dont-worry-weve-reached-you-about-your-cars-extended-warranty">But don&rsquo;t worry, we&rsquo;ve reached you about your car&rsquo;s extended warranty</h3>
+<p>Finally, I try installing SQL Server 2019. I genetically cross-splice
+several toad genes together thinking this will save the day, and lo and
+behold, I is saved.</p>
+<h3 id="haha-yes">Haha yes</h3>
+<p>So what is the lesson we&rsquo;ve learned today? I&rsquo;ve learned that I still
+love Postgresql, and that I&rsquo;ve never in my life had such an unknown
+issue happen on a Linux system in my years of administrating them. But on
+Windows, I may as well just drop coins in a well and hope they come back up.</p>
+]]></description>
+      
+    </item>
+    
     
     
     <item>

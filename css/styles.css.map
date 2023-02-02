@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "styles.css",
-	"sourceRoot": "E:/code/my stuff/ioerr.dev.src",
+	"sourceRoot": "/mnt/e/code/my stuff/ioerr.dev.src",
 	"sources": [
 		"themes/ficurinia/assets/scss/style.scss"
 	],

@@ -17,5 +17,14 @@
       <description>Basically this takes VERY heavy inspiration from Gabmus&amp;rsquo; config file for this Hugo theme.</description>
     </item>
     
+    <item>
+      <title>New year, new website</title>
+      <link>https://ioerr.dev/posts/first-2023/</link>
+      <pubDate>Sun, 29 Jan 2023 17:02:51 -0600</pubDate>
+      
+      <guid>https://ioerr.dev/posts/first-2023/</guid>
+      <description>Here I am in 2023, about to start anew with a fast-paced developement course!</description>
+    </item>
+    
   </channel>
 </rss>
