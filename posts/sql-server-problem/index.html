@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html class="" lang="en-us"><head>
+    
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+
+    <link
+    rel="icon"
+    href='/favicon.png'
+/>
+<link
+    rel="shortcut icon"
+    href='/favicon.ico'
+    type="image/x-icon"
+/>
+<link
+    rel="apple-touch-icon"
+    href='/apple-touch-icon.png'
+/>
+
+<title>
+        
+            Microsoft SQL Server Installation, or: Don&#39;t Install New Versions of Anything  &ndash;
+        
+        IO:E::
+    </title>
+
+    
+    <link href="/symbols-nerd-font/symbols-nerd-font.css" rel="stylesheet" integrity="sha512-lydow8GLOLlYNOtHlksNCmGWWCBsbIEtikXpHzfWqx78HLlyQZHOzyLwPpKol4Th6aCwLUXOfODVYgwrd3nwKQ=="/>
+    <link href="/jetbrains-mono/jetbrains-mono.css" rel="stylesheet" integrity="sha512-tJxlgL6v1Y7kFf+qB8SloaAMKnOAw6WouknxXtIjkBux9Y/9aX81EUWOJO8c/3l98DmjG8brr4to7zaez606Fg=="/>
+
+    
+    
+    <link type="text/css" rel="stylesheet" href=https://ioerr.dev/css/styles.abbd6311bb4b6ca58f8e7398140529245ae0f6428b759fcd830742eee2619eabb900ba9914a9affb82aa9a16a9b9ea727bb315315a976a0db0e7513a5f12c504.css integrity="sha512-q71jEbtLbKWPjnOYFAUpJFrg9kKLdZ/NgwdC7uJhnqu5ALqZFKmv&#43;4Kqmhapuepye7MVMVqXag2w51E6XxLFBA==" />
+<a rel="me" href="https://universeodon.com/@twilightspecks"></a>
+<meta name="author" content="" />
+
+    
+        <meta name="keywords" content='software, sql, windows' />
+    
+    
+        <meta name="description" content="ldquo;Whose Hack Is It Anyway?&amp;rdquo; we discover the problem of trying to install Microsoft SQL Server, version of the Year of Our Lord 2022, on Windows 11." />
+    
+
+<meta property="og:site_name"
+    content='IO:E::' />
+
+    <meta property="og:title" content="Microsoft SQL Server Installation, or: Don&#39;t Install New Versions of Anything" />
+    <meta property="og:type" content="article" />
+    
+    <meta
+        property="article:author" content="" />
+    <meta
+        property="article:published_time"
+        content='2023-02-02T13:34:35Z-0600' />
+    
+        
+            <meta property="article:tag" content="software" />
+        
+            <meta property="article:tag" content="sql" />
+        
+            <meta property="article:tag" content="windows" />
+        
+    
+    <meta property="og:url" content="https://ioerr.dev/posts/sql-server-problem/" />
+    
+    
+    <meta property="og:image"
+        content="https://ioerr.dev/img/icon.svg" />
+    
+        <meta property="og:description" content="In this episode of &amp;ldquo;Whose Hack Is It Anyway?&amp;rdquo; we discover the problem of trying to install Microsoft SQL Server, version of the Year of Our Lord 202" />
+    
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:domain"
+      content='ioerr.dev'
+/>
+<meta property="twitter:url" content="https://ioerr.dev/posts/sql-server-problem/" />
+
+
+    <meta name="twitter:title" content="Microsoft SQL Server Installation, or: Don&#39;t Install New Versions of Anything" />
+    
+    
+    
+    <meta name="twitter:image"
+        content="https://ioerr.dev/img/icon.svg" />
+    
+        <meta name="twitter:description" content="In this episode of &amp;ldquo;Whose Hack Is It Anyway?&amp;rdquo; we discover the problem of trying to install Microsoft SQL Server, version of the Year of Our Lord 202" />
+    
+
+<link rel="manifest" href="/manifest/index.json" />
+</head>
+
+
+<body>
+        <div id="baseContainer"><header class="">
+<div class="titleAndSearchContainer">
+        <div id="titleContainer">
+            
+                <a class="unstyledLink" href="/">
+                    <img src='/logo.svg' alt='Logo'/>
+                </a>
+            
+            <div class="rightOfLogo">
+                <div class="titleAndHamburger">
+                    <h1>
+                        <a class="unstyledLink" href="/">IO:E::</a>
+                        
+                    </h1>
+                    
+                </div>
+                <div id="wide_nav"><nav>
+    
+    <ul id="main-nav">
+        <li><a href="/">Home</a></li>
+        
+            <li><a href="/posts">Posts</a></li>
+        
+        
+        
+        
+        
+        
+        
+            <li><a href="/tags">Tags</a></li>
+        
+        
+    </ul>
+</nav>
+</div>
+            </div>
+        </div>
+        <div class="search">
+    <input id="searchbar" type="text" placeholder='Search' />
+    <a class="nerdlink" onclick="newSearch();">&#xf002;</a>
+</div>
+<script>
+    function newSearch() {
+        let term = searchbar.value.trim();
+        if (!term) return;
+        location.href = `/search?q=${term}`;
+    }
+    searchbar.onkeyup = (ev) => {if (ev.keyCode == 13) newSearch()};
+</script>
+
+    </div>
+    <div id="links">
+        <a
+    
+        rel="noreferrer"
+    
+    target="_blank"
+    class="nerdlink"
+    href="/index.xml">
+    
+    
+        &#xf09e;
+    
+    <span>
+        RSS
+    </span>
+</a>
+
+        
+        
+    </div>
+    
+
+</header>
+<div id="contentContainer">
+                <div id="content">
+                    <main>
+<article class="card single">
+    
+        <h1>Microsoft SQL Server Installation, or: Don&#39;t Install New Versions of Anything</h1>
+    
+    
+        <p class="date">
+            <span title='Date'> </span>
+    2023-02-02
+
+</p>
+    
+    
+    
+    
+    <div><p>In this episode of &ldquo;Whose Hack Is It Anyway?&rdquo; we discover the problem of
+trying to install Microsoft SQL Server, version of the Year of Our Lord 2022,
+on Windows 11.</p>
+<h3 id="it-all-started-on-a-faded-blue-and-purple-sunny-afternoon-except-it-wasnt">It all started on a faded blue and purple sunny afternoon, except it wasn&rsquo;t</h3>
+<h3 id="sunny-and-i-dont-know-why-its-purple">sunny, and I don&rsquo;t know why it&rsquo;s purple.</h3>
+<p>Essentially I ran across the error code <code>-2061893606</code>, which has something to
+do with the disk sector size being different in Windows 11 (apparently this
+has to do with NVMe storage? I don&rsquo;t know) and SQL Server Express not
+recognizing it. So I cleaned it up, deleted the cached files because I
+figured there was a error with one of the cab files or something, then tried
+reinstalling. This time, I got error code <code>2068119551</code>, stating <code>attempted to perform an unauthorized operation</code>.</p>
+<h3 id="fantastic-i-dont-know-what-that-means-3">Fantastic. I don&rsquo;t know what that means &lt;3</h3>
+<p>At this point, I&rsquo;m sweating whole cars out of my neck. I need this installed,
+and it&rsquo;s hard to get ~250MiB installed when you can only go at a max rate of
+~1MB/s, fluctuating between that and less than 200KiB/s. It&rsquo;s after 11pm, I
+have to get up at 5am for work, and I have the following class day where,
+ideally, I should have this installed!!! I don&rsquo;t know what I&rsquo;m going to do.</p>
+<h3 id="but-dont-worry-weve-reached-you-about-your-cars-extended-warranty">But don&rsquo;t worry, we&rsquo;ve reached you about your car&rsquo;s extended warranty</h3>
+<p>Finally, I try installing SQL Server 2019. I genetically cross-splice
+several toad genes together thinking this will save the day, and lo and
+behold, I is saved.</p>
+<h3 id="haha-yes">Haha yes</h3>
+<p>So what is the lesson we&rsquo;ve learned today? I&rsquo;ve learned that I still
+love Postgresql, and that I&rsquo;ve never in my life had such an unknown
+issue happen on a Linux system in my years of administrating them. But on
+Windows, I may as well just drop coins in a well and hope they come back up.</p>
+</div>
+</article>
+
+    <hr />
+    <p class="articleTagsContainer">
+        <span> </span>
+        <strong>Tags:</strong>
+        
+            <a
+                
+                href="/tags/software">#software</a>
+        
+            <a
+                
+                href="/tags/sql">#sql</a>
+        
+            <a
+                
+                href="/tags/windows">#windows</a>
+        
+    </p>
+
+
+
+
+
+    
+    
+
+
+                    </main><footer>
+    <hr />
+
+<p><small>
+        2023 &copy; <a href="https://github.com/mixedrgb">MixedRGB</a> - <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+    </small></p>
+    <p><small>
+        <a href='https://gitlab.com/gabmus/hugo-ficurinia'>Ficurinia theme</a> for <a href='https://gohugo.io'>Hugo</a> by <a href='https://gabmus.org'>Gabriele Musco</a>. Licensed under <a href='https://www.gnu.org/licenses/agpl-3.0.html'>GNU AGPLv3</a>.
+    </small></p>
+</footer>
+</div>
+            </div>
+        </div>
+
+
+</body>
+</html>

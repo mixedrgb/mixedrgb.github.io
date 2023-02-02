@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sql on IO:E::</title>
+    <link>https://ioerr.dev/tags/sql/</link>
+    <description>Recent content in sql on IO:E::</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>[MixedRGB](https://github.com/mixedrgb) - [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
+    <lastBuildDate>Thu, 02 Feb 2023 13:34:35 -0600</lastBuildDate><atom:link href="https://ioerr.dev/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft SQL Server Installation, or: Don&#39;t Install New Versions of Anything</title>
+      <link>https://ioerr.dev/posts/sql-server-problem/</link>
+      <pubDate>Thu, 02 Feb 2023 13:34:35 -0600</pubDate>
+      
+      <guid>https://ioerr.dev/posts/sql-server-problem/</guid>
+      <description>In this episode of &amp;ldquo;Whose Hack Is It Anyway?&amp;rdquo; we discover the problem of trying to install Microsoft SQL Server, version of the Year of Our Lord 2022, on Windows 11.</description>
+    </item>
+    
+  </channel>
+</rss>
