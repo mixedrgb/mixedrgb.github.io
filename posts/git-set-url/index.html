@@ -5,11 +5,6 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=7" />
 
-    
-        
-          <link href="https://ioerr.dev/categories/index.xml" rel="alternate" type="application/rss+xml" title="IO:E::" />
-          <link href="https://ioerr.dev/categories/index.xml" rel="feed" type="application/rss+xml" title="IO:E::" />
-        
     <link
     rel="icon"
     href='/favicon.jpg'
@@ -26,7 +21,7 @@
 
 <title>
         
-            Categories  &ndash;
+            Git Set Url  &ndash;
         
         IO:E::
     </title>
@@ -41,35 +36,57 @@
 <meta name="author" content="" />
 
     
-        <meta name="description" content="stuff about things" />
+        <meta name="keywords" content='bugs, git, vscode' />
+    
+    
+        <meta name="description" content=" again I was having an issue pushing to a Git repository." />
     
 
 <meta property="og:site_name"
     content='IO:E::' />
 
-    <meta property="og:title"
-        content='IO:E::' />
+    <meta property="og:title" content="Git Set Url" />
+    <meta property="og:type" content="article" />
     
-        <meta property="og:description" content="stuff about things" />
+    <meta
+        property="article:author" content="" />
+    <meta
+        property="article:published_time"
+        content='2023-02-25T18:48:41Z-0600' />
     
-    <meta property="og:type" content="blog" />
+        
+            <meta property="article:tag" content="bugs" />
+        
+            <meta property="article:tag" content="git" />
+        
+            <meta property="article:tag" content="vscode" />
+        
+    
+    <meta property="og:url" content="https://ioerr.dev/posts/git-set-url/" />
+    
+    
     <meta property="og:image"
-        content='https://ioerr.dev/icon512.jpg' />
+        content="https://ioerr.dev/icon512.jpg" />
+    
+        <meta property="og:description" content="Ah frick, here we go again I was having an issue pushing to a Git repository." />
+    
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:domain"
       content='ioerr.dev'
 />
-<meta property="twitter:url" content="https://ioerr.dev/categories/" />
+<meta property="twitter:url" content="https://ioerr.dev/posts/git-set-url/" />
 
 
-    <meta name="twitter:title"
-        content='IO:E::' />
+    <meta name="twitter:title" content="Git Set Url" />
     
-        <meta name="twitter:description" content="stuff about things" />
+    
     
     <meta name="twitter:image"
-        content='https://ioerr.dev/icon512.jpg' />
+        content="https://ioerr.dev/icon512.jpg" />
+    
+        <meta name="twitter:description" content="Ah frick, here we go again I was having an issue pushing to a Git repository." />
+    
 
 <link rel="manifest" href="/manifest/index.json" />
 </head>
@@ -153,55 +170,73 @@
 <div id="contentContainer">
                 <div id="content">
                     <main>
-    <h2>
+<article class="card single">
+    
+        <h1>Git Set Url</h1>
     
     
-    
-    
-        Categories
-    
-</h2>
-<ul class="list">
-    
-        
-            <li>
-                <div>
-                    <span class="date">
+        <p class="date">
+            <span title='Date'> </span>
     2023-02-25
 
-</span>
-                    <span>
-                        <a href="https://ioerr.dev/categories/everything/">everything</a>
-                    </span>
-                </div>
-            </li>
-        
-            <li>
-                <div>
-                    <span class="date">
-    2023-02-02
-
-</span>
-                    <span>
-                        <a href="https://ioerr.dev/categories/technology/">technology</a>
-                    </span>
-                </div>
-            </li>
-        
-            <li>
-                <div>
-                    <span class="date">
-    2023-01-29
-
-</span>
-                    <span>
-                        <a href="https://ioerr.dev/categories/all-the-things/">all the things</a>
-                    </span>
-                </div>
-            </li>
-        
+</p>
     
-</ul>
+    
+    
+    
+    <div><h1 id="ah-frick-here-we-go-again">Ah frick, here we go again</h1>
+<p>I was having an issue pushing to a Git repository. It was saying &ldquo;remote
+not found,&rdquo; but clearly it exists as I&rsquo;m able to push to it with the CLI git
+(I was using Visual Studio Code&rsquo;s built-in Git function). The debug log
+was very unhelpful, so I did a little bit of digging. As it turns out,
+VS Code doesn&rsquo;t even look at the <code>.git-credentials</code> file! What a big heck!!</p>
+<h1 id="thonking-emoji">Thonking Emoji</h1>
+<p>As far as I&rsquo;m aware, the conventional method is to use GCM (Git Credential
+Manager) and VS Code will pull creds from that. Unfortunately, I had the
+worst time of my life trying to sort out a problem between multiple accounts
+across multiple Git instances when I used GCM. Now, this was very likely
+user error [TM], but I don&rsquo;t want to mess with it when there is a simpler
+solution.</p>
+<h1 id="there-can-only-be-one-why-am-i-quoting-highlander-c">There can only be one. Why am I quoting Highlander &gt;:C</h1>
+<p><code>https://[username]:[token]@[Git-Instance]/MyName/MyRepo.git</code></p>
+<p>This one line fixed all of my woes I had been experiencing over the last
+hour. I hadn&rsquo;t considered putting an access token in with the remote url, but
+it definitely works. I don&rsquo;t like it at all. It&rsquo;s ugly. It&rsquo;s not simple to fix
+unless you know what you&rsquo;re looking for. But I was aware of set-url and
+using multiple tokens, but not using them in this particular manner. On the
+up side, I can do this per repository, too!</p>
+<h1 id="but-thats-useless-congratulations">But that&rsquo;s useless! Congratulations!</h1>
+<p>You bet it is, and it makes me happy. I fixed a problem in a very ill-advised
+way, and that&rsquo;s usually how things get done when you need something to
+be <a href="https://xkcd.com/2730/">fixed right away due to more pressing concerns</a>.</p>
+</div>
+</article>
+
+    <hr />
+    <p class="articleTagsContainer">
+        <span> </span>
+        <strong>Tags:</strong>
+        
+            <a
+                
+                href="/tags/bugs">#bugs</a>
+        
+            <a
+                
+                href="/tags/git">#git</a>
+        
+            <a
+                
+                href="/tags/vscode">#vscode</a>
+        
+    </p>
+
+
+
+
+
+    
+    
 
 
                     </main><footer>

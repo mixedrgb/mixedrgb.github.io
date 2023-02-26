@@ -6,7 +6,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>[MixedRGB](https://github.com/mixedrgb) - [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 02 Feb 2023 13:34:35 -0600</lastBuildDate><atom:link href="https://ioerr.dev/index.xml" rel="self" type="application/rss+xml" /><icon>https://ioerr.dev/logo.jpg</icon>
+    <lastBuildDate>Sat, 25 Feb 2023 18:48:41 -0600</lastBuildDate><atom:link href="https://ioerr.dev/index.xml" rel="self" type="application/rss+xml" /><icon>https://ioerr.dev/logo.jpg</icon>
+    
+    
+    <item>
+      <title>Git Set Url</title>
+      <link>https://ioerr.dev/posts/git-set-url/</link>
+      <pubDate>Sat, 25 Feb 2023 18:48:41 -0600</pubDate>
+      
+      <guid>https://ioerr.dev/posts/git-set-url/</guid>
+      <description><![CDATA[<h1 id="ah-frick-here-we-go-again">Ah frick, here we go again</h1>
+<p>I was having an issue pushing to a Git repository. It was saying &ldquo;remote
+not found,&rdquo; but clearly it exists as I&rsquo;m able to push to it with the CLI git
+(I was using Visual Studio Code&rsquo;s built-in Git function). The debug log
+was very unhelpful, so I did a little bit of digging. As it turns out,
+VS Code doesn&rsquo;t even look at the <code>.git-credentials</code> file! What a big heck!!</p>
+<h1 id="thonking-emoji">Thonking Emoji</h1>
+<p>As far as I&rsquo;m aware, the conventional method is to use GCM (Git Credential
+Manager) and VS Code will pull creds from that. Unfortunately, I had the
+worst time of my life trying to sort out a problem between multiple accounts
+across multiple Git instances when I used GCM. Now, this was very likely
+user error [TM], but I don&rsquo;t want to mess with it when there is a simpler
+solution.</p>
+<h1 id="there-can-only-be-one-why-am-i-quoting-highlander-c">There can only be one. Why am I quoting Highlander &gt;:C</h1>
+<p><code>https://[username]:[token]@[Git-Instance]/MyName/MyRepo.git</code></p>
+<p>This one line fixed all of my woes I had been experiencing over the last
+hour. I hadn&rsquo;t considered putting an access token in with the remote url, but
+it definitely works. I don&rsquo;t like it at all. It&rsquo;s ugly. It&rsquo;s not simple to fix
+unless you know what you&rsquo;re looking for. But I was aware of set-url and
+using multiple tokens, but not using them in this particular manner. On the
+up side, I can do this per repository, too!</p>
+<h1 id="but-thats-useless-congratulations">But that&rsquo;s useless! Congratulations!</h1>
+<p>You bet it is, and it makes me happy. I fixed a problem in a very ill-advised
+way, and that&rsquo;s usually how things get done when you need something to
+be <a href="https://xkcd.com/2730/">fixed right away due to more pressing concerns</a>.</p>
+]]></description>
+      
+    </item>
+    
     
     
     <item>
