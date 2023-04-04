@@ -6,7 +6,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>[MixedRGB](https://github.com/mixedrgb) - [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)</copyright>
-    <lastBuildDate>Sat, 25 Feb 2023 18:48:41 -0600</lastBuildDate><atom:link href="https://ioerr.dev/index.xml" rel="self" type="application/rss+xml" /><icon>https://ioerr.dev/logo.jpg</icon>
+    <lastBuildDate>Mon, 03 Apr 2023 19:07:50 -0500</lastBuildDate><atom:link href="https://ioerr.dev/index.xml" rel="self" type="application/rss+xml" /><icon>https://ioerr.dev/logo.jpg</icon>
+    
+    
+    <item>
+      <title>Insert Congratulatory New Modem!</title>
+      <link>https://ioerr.dev/posts/new_modem/</link>
+      <pubDate>Mon, 03 Apr 2023 19:07:50 -0500</pubDate>
+      
+      <guid>https://ioerr.dev/posts/new_modem/</guid>
+      <description><![CDATA[<h1 id="weve-known-each-other-for-so-long">We&rsquo;ve Known Each Other For So Long</h1>
+<p>We got a new modem from $ISP today to make The Slow not be The Slow.
+I&rsquo;m big excitement over it!</p>
+<h1 id="-you-know-ip-rules-and-so-do-i-">~ You Know IP Rules, And So Do I ~</h1>
+<p>I thought there was Something Amiss [tm] when my Preferred Device (OpenWRT
+router) was not working properly. It would send packets through for ~10 seconds,
+and then not work for between 20 and 30. Exactly between 20 and 30. This didn&rsquo;t
+make any sense to me, but I knew it was a network misconfiguration of some sort.</p>
+<h1 id="a-full-packets-what-im-syncin-of">A Full Packet&rsquo;s What I&rsquo;m Syncin&rsquo; Of</h1>
+<p>I wish this could be a great long story about the woes of technology and that
+my ultimate life goal is to live in a cabin far away from civilization with
+several wolves all named after Road Rovers, but in actuality, for whatever
+HECKIN&rsquo; reason, $ISP decided that <code>192.168.1.1</code> would be the IP address
+of anything that would connect to it for internet, not <code>192.168.1.2</code>. This
+<em>technically</em> makes sense, as the actual address range for the device itself
+is <code>192.168.100.1</code>, but that is irritating. So what do you do?</p>
+<h1 id="you-wouldnt-get-this-from-any-other-vi-yes-this-title-is-awful-please">You wouldn&rsquo;t get this from any other Vi&hellip; Yes, this title is awful, please</h1>
+<p>laugh, dag nabbit.</p>
+<p>TL;DR I changed the router&rsquo;s network address to be <code>192.168.2.1</code> so now it
+and the modem are happy once again.</p>
+<p>ok bye now</p>
+]]></description>
+      
+    </item>
+    
     
     
     <item>

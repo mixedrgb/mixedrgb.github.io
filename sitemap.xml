@@ -2,10 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ioerr.dev/tags/bugs/</loc>
-    <lastmod>2023-02-25T18:48:41-06:00</lastmod>
-  </url><url>
     <loc>https://ioerr.dev/categories/</loc>
+    <lastmod>2023-04-03T19:07:50-05:00</lastmod>
+  </url><url>
+    <loc>https://ioerr.dev/posts/new_modem/</loc>
+    <lastmod>2023-04-03T19:07:50-05:00</lastmod>
+  </url><url>
+    <loc>https://ioerr.dev/</loc>
+    <lastmod>2023-04-03T19:07:50-05:00</lastmod>
+  </url><url>
+    <loc>https://ioerr.dev/tags/isp/</loc>
+    <lastmod>2023-04-03T19:07:50-05:00</lastmod>
+  </url><url>
+    <loc>https://ioerr.dev/tags/modems/</loc>
+    <lastmod>2023-04-03T19:07:50-05:00</lastmod>
+  </url><url>
+    <loc>https://ioerr.dev/tags/openwrt/</loc>
+    <lastmod>2023-04-03T19:07:50-05:00</lastmod>
+  </url><url>
+    <loc>https://ioerr.dev/posts/</loc>
+    <lastmod>2023-04-03T19:07:50-05:00</lastmod>
+  </url><url>
+    <loc>https://ioerr.dev/tags/router/</loc>
+    <lastmod>2023-04-03T19:07:50-05:00</lastmod>
+  </url><url>
+    <loc>https://ioerr.dev/tags/sysadmin/</loc>
+    <lastmod>2023-04-03T19:07:50-05:00</lastmod>
+  </url><url>
+    <loc>https://ioerr.dev/tags/</loc>
+    <lastmod>2023-04-03T19:07:50-05:00</lastmod>
+  </url><url>
+    <loc>https://ioerr.dev/categories/tech/</loc>
+    <lastmod>2023-04-03T19:07:50-05:00</lastmod>
+  </url><url>
+    <loc>https://ioerr.dev/tags/bugs/</loc>
     <lastmod>2023-02-25T18:48:41-06:00</lastmod>
   </url><url>
     <loc>https://ioerr.dev/categories/everything/</loc>
@@ -15,15 +45,6 @@
     <lastmod>2023-02-25T18:48:41-06:00</lastmod>
   </url><url>
     <loc>https://ioerr.dev/posts/git-set-url/</loc>
-    <lastmod>2023-02-25T18:48:41-06:00</lastmod>
-  </url><url>
-    <loc>https://ioerr.dev/</loc>
-    <lastmod>2023-02-25T18:48:41-06:00</lastmod>
-  </url><url>
-    <loc>https://ioerr.dev/posts/</loc>
-    <lastmod>2023-02-25T18:48:41-06:00</lastmod>
-  </url><url>
-    <loc>https://ioerr.dev/tags/</loc>
     <lastmod>2023-02-25T18:48:41-06:00</lastmod>
   </url><url>
     <loc>https://ioerr.dev/tags/vscode/</loc>
